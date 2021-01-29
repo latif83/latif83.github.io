@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Upload page</title>
+	<link rel="stylesheet" type="text/css" href="upload.css">
+</head>
+<body>
+	<div id="main-contents">
+		<div id="field-header">Dashboard</div>
+		<h2 id="header1">Create a new project</h2>
+		<div id="msg">
+			<b>You don't have payment configured</b> if you set a minimum price above 0 no one will be able to download your project. 
+			<a href="#">Edit account</a>
+		</div>
+		<div id="prompt">
+			<b>Make sure everyone can find your page</b><br>
+			Review our <a href="#">quality quidelines</a> before posting your project
+		</div>
+		<div id="right-items">
+		<div id="image">
+			<input type="button" value="Upload Cover Image" >	
+		</div>	<br>
+		<summary>
+				The cover image is used whenever kaneadua.com wants to link to your project from another part of the site.Required( Minimum 315*250,Recommended: 630*500)
+			</summary><br>
+			<h3>Gameplay video or trailer</h3><br>
+			<p>Provide a link to Youtube or Vimeo.</p>
+			<input type="text" placeholder="eg. https://www.youtube.com/watch?v=5jEaA47sP"><br><br>
+			<h3>Screenshots</h3><br>
+			<p>Screenshots will appear on your games page. Optional but highly recommended. Upload 3 to 5 for best results.</p><br>
+			<a href="#"><button>Add Screenshots</button></a>
+		</div>	
+
+		<div id="form-contents">
+			<form>
+			<label for="title">Title:</label><br>
+			<input type="text" id="title" ><br><br>
+			<label for="url">Project URL:</label><br>
+			<input type="text" placeholder="http//latif83.kaneadua.com/" id="url"><br><br>
+
+			<h4>Short description or tagline</h4><br>
+			<p>Shown when we link to your project. Avoid duplicating your projects title.</p><br>
+			<input type="text" placeholder="Optional"><br><br><br>
+			<h2>Classification</h2><br><br>
+			<h3 style="opacity: 70%;">What are you uploading?</h3><br>
+			<select>
+				<option>
+					Games - A piece of software you can play
+				</option>
+				<option>
+					Game assets - Graphics,fonts,music,sounds one can combine into something else
+				</option>
+				<option>
+					Game mods - An alteration of the content of a game
+				</option>
+				<option>
+					Physical games - One you can play without devices (e.g. board game,print & play)
+				</option>
+				<option>
+					Soundtracks - A collection of music
+				</option>
+				<option>
+					Tools - A software utility
+				</option>
+				<option>
+					Comics - A story told through drawings
+				</option>
+				<option>
+					Books - A story told through words
+				</option>
+				<option>Other</option>
+			</select><br><br><br>
+
+			<h2>Kind of project</h2><br>
+			<select>
+				<option>
+					Downloadable - You only have files to be downloaded
+				</option>
+				<option>
+					HTML - You have a ZIP or HTML file that will be played in the browser
+				</option>
+				<option>
+					Flash - You have an SWF that will be played in the browser
+				</option>
+				<option>
+					Java applet - You have a JAR that will be played in the browser
+				</option>
+				<option>
+					Unity <5.3 - You have a Unity3d file that will be played in the browser
+				</option>
+			</select><br><br>
+			<h3 style="color:white;background: black;padding: 1%;display: inline-flex;">Tip</h3>
+
+			<i style="color: red;"><b>You can add additional downloadable files for any of the types above</b></i><br><br><br>
+
+			<h3>Release status</h3><br>
+			<select>
+				<option>
+					Released - project is complete, but might receive some updates
+				</option>
+				<option>
+					In development - Project is in active development (or in early access)
+				</option>
+				<option>
+					On hold - Development is paused for now
+				</option>
+				<option>
+					Canceled - Development has stopped indefinitely
+				</option>
+				<option>Prototype - An early prototype for testing an idea out, fate of project unknown</option>
+			</select><br><br><br><br><br>
+
+			<h3>Pricing</h3><br>
+			<div id="check1">
+			<input type="checkbox" checked id="checkbox1">
+			<label for="checkbox1">$0 or donate</label>
+		</div>
+
+		<div id="check2">
+			<input type="checkbox"  id="checkbox2">
+			<label for="checkbox2">Paid</label>
+		</div>
+
+		<div id="check3">
+			<input type="checkbox"  id="checkbox3">
+			<label for="checkbox3">No payments</label>
+		</div><br><br>
+
+		<p style="opacity: 100%;">Someone downloading your project will be asked for a donation before getting access. They can skip to download for free.</p><br><br>
+
+		<p style="opacity: 100%; font-size:1em;"><b>Suggested donation - </b>Default donation amount</p>
+		<input type="text" value="$2.00"><br><br><br><br><br>
+
+		<h3>Uploads</h3><br>
+		<h3 style="color:white;background: black;padding: 1%;display: inline-flex;">Tip</h3>
+
+			<i ><b>Use <b style="font-weight: bolder;">butler</b> to upload game files: it only uploads what's changed,generates patches for the <a>kaneadua.com app</a> and you can automate it. <a>Get started!</a></b></i><br><br>
+
+			<a href="#"><button>Upload file</button></a>
+
+			<p style="opacity: 100%; display: inline; ">or</p>
+			<a href="#" id="ex">Add External file</a><br><br><br>
+			<p>File size limit: 1GB.<a href="#">Contact us</a> if you need more space</p><br><br><br>
+
+			<h3>Details</h3><br>
+			<p style="opacity: 100%;"><b>Description - </b>This will make up content of your game page.</p>
+			<div contenteditable="true" id="description">Write your description here</div><br><br>
+
+			<h3>Custom noun</h3><br>
+			<p style="opacity: 100%;">You can change how kaneadua.com refers to your project by providing a custom noun.<br>
+			Leave blank to default to:'game'.</p>
+			<input type="text" placeholder="Optional"><br><br>
+
+			<h3>Community</h3><br>
+
+			<p>Build a community for your project by letting people post to your page.</p><br>
+
+			<input type="radio" id="radio1" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Disabled</label><br>
+			<input type="radio" id="radio1" checked style="width: auto;"><label for="radio1" style="margin-left: 1%;">Comments - Add a nested comment thread to the bottom of the project page</label><br>
+			<input type="radio" id="radio1" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Discussion board - Add a dedicated community page with categories,threads,replies & more</label>
+<br><br><br>
+			<a href="#"><button>Save & View Page</button></a>
+
+		</form>
+		</div>
+
+	</div>
+
+</body>
+</html>
