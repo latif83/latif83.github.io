@@ -3,6 +3,7 @@
 <head>
 	<title>Upload page</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div id="main-contents">
@@ -18,12 +19,12 @@
 		</div>
 		<div id="right-items">
 		<div id="image">
-			<input type="button" value="Upload Cover Image" >	
+			<input type="button" value="Set feature image" >	
 		</div>	<br>
 		<summary>
 				The cover image is used whenever kaneadua.com wants to link to your project from another part of the site.Required( Minimum 315*250,Recommended: 630*500)
 			</summary><br>
-			<h3>Gameplay video or trailer</h3><br>
+			<h3>Walkthrough video or trailer</h3><br>
 			<p>Provide a link to Youtube or Vimeo.</p>
 			<input type="text" placeholder="eg. https://www.youtube.com/watch?v=5jEaA47sP"><br><br>
 			<h3>Screenshots</h3><br>
@@ -32,7 +33,7 @@
 		</div>	
 
 		<div id="form-contents">
-			<form>
+			<form action="api.kaneadua.com" method="GET">
 			<label for="title">Title:</label><br>
 			<input type="text" id="title" ><br><br>
 			<label for="url">Project URL:</label><br>
@@ -42,7 +43,7 @@
 			<p>Shown when we link to your project. Avoid duplicating your projects title.</p><br>
 			<input type="text" placeholder="Optional"><br><br><br>
 			<h2>Classification</h2><br><br>
-			<h3 style="opacity: 70%;">What are you uploading?</h3><br>
+			<h3 style="opacity: 70%;">Project Type</h3><br>
 			<select>
 				<option>
 					Games - A piece of software you can play
@@ -112,17 +113,17 @@
 
 			<h3>Pricing</h3><br>
 			<div id="check1">
-			<input type="checkbox" checked id="checkbox1">
+			<input type="checkbox" checked id="checkbox1" name="checkbox">
 			<label for="checkbox1">$0 or donate</label>
 		</div>
 
 		<div id="check2">
-			<input type="checkbox"  id="checkbox2">
+			<input type="checkbox"  id="checkbox2" name="checkbox">
 			<label for="checkbox2">Paid</label>
 		</div>
 
 		<div id="check3">
-			<input type="checkbox"  id="checkbox3">
+			<input type="checkbox"  id="checkbox3"  name="checkbox">
 			<label for="checkbox3">No payments</label>
 		</div><br><br>
 
@@ -155,11 +156,12 @@
 
 			<p>Build a community for your project by letting people post to your page.</p><br>
 
-			<input type="radio" id="radio1" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Disabled</label><br>
-			<input type="radio" id="radio1" checked style="width: auto;"><label for="radio1" style="margin-left: 1%;">Comments - Add a nested comment thread to the bottom of the project page</label><br>
-			<input type="radio" id="radio1" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Discussion board - Add a dedicated community page with categories,threads,replies & more</label>
+			<input type="radio" id="radio1" name="radio" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Disabled</label><br>
+			<input type="radio" id="radio1" name="radio" checked style="width: auto;"><label for="radio1" style="margin-left: 1%;">Comments - Add a nested comment thread to the bottom of the project page</label><br>
+			<input type="radio" id="radio1" name="radio" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Discussion board - Add a dedicated community page with categories,threads,replies & more</label>
 <br><br><br>
-			<a href="#"><button>Save & View Page</button></a>
+
+			<input type="submit" name="submit" value="Save & View Page" id="submit">
 
 		</form>
 		</div>
