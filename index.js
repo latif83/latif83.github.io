@@ -1,3 +1,4 @@
+alert('connected');
 function previewfile(){
 			var visible=document.getElementById('preview');
 			var preview=document.querySelector('img');
