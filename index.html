@@ -16,28 +16,64 @@
 			<b>Make sure everyone can find your page</b><br>
 			Review our <a href="#">quality quidelines</a> before posting your project
 		</div>
+		<form action="api.kaneadua.com" method="GET">
 		<div id="right-items">
 		<div id="image">
-			<img src="" id="preview"  >
+			<img src="38598592.png" id="preview"  >
 				
 		</div><br>
 		<label for="img" id="label1">Set feature image</label>
-			<input type="file" name="feature_image" id="img" multiple="false" accept="image/*" onchange="previewfile();">
+			<input type="file" name="feature_image" id="img" multiple="false" accept="image/*" onchange="featureimage();">
 
 			<br><br>
 		<summary>
-				The cover image is used whenever kaneadua.com wants to link to your project from another part of the site.Required( Minimum 315*250,Recommended: 630*500)
+				The Feature image is used whenever kaneadua.com wants to link to your project from another part of the site. Required( Minimum 115*50, Recommended: 430*300)
 			</summary><br>
 			<h3>Walkthrough video or trailer</h3><br>
 			<p>Provide a link to Youtube or Vimeo.</p>
-			<input type="text" placeholder="eg. https://www.youtube.com/watch?v=5jEaA47sP"><br><br>
+			<input type="url" placeholder="eg. https://www.youtube.com/watch?v=5jEaA47sP" required><br><br>
 			<h3>Screenshots</h3><br>
-			<p>Screenshots will appear on your games page. Optional but highly recommended. Upload 3 to 5 for best results.</p><br>
-			<a href="#"><button>Add Screenshots</button></a>
+			<p>Screenshots will appear on your games page. Optional but highly recommended. Upload 3 to 6 for best results.</p><br>
+			<h4>Click on Add Screenshots to add your Screenshots</h4><br>
+
+			<div id="Screenshots-contents">
+				<div id="screen1">
+			<center><label for="Screenshots0">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots0" multiple="True" accept="image/*" onchange="previewscreenshots0();"><br><br>
+			<img src="" id="view0">
+		</div>
+		<div id="screen2">
+			<center><label for="Screenshots1">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots1" multiple="True" accept="image/*" onchange="previewscreenshots1();"><br><br>
+			<img src="" id="view1">
+		</div>
+		<div id="screen3">
+			<center><label for="Screenshots2">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots2" multiple="True" accept="image/*" onchange="previewscreenshots2();"><br><br>
+			<img src="" id="view2">
+		</div>
+		<div id="screen4">
+			<center><label for="Screenshots3">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots3" multiple="True" accept="image/*" onchange="previewscreenshots3();"><br><br>
+			<img src="" id="view3">
+		</div>
+		<div id="screen5">
+			<center><label for="Screenshots4">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots4" multiple="True" accept="image/*" onchange="previewscreenshots4();"><br><br>
+			<img src="" id="view4">
+		</div>
+		<div id="screen6">
+			<center><label for="Screenshots5">Add Screenshots</label></center>
+			<input type="file" name="Screenshots" id="Screenshots5" multiple="True" accept="image/*" onchange="previewscreenshots5();"><br><br>
+			<img src="" id="view5">
+		</div>
+	</div>
+
 		</div>	
 
 		<div id="form-contents">
-			<form action="api.kaneadua.com" method="GET">
+			<div id="form">
+			
 			<label for="title">Title:</label><br>
 			<input type="text" id="title" required oninvalid="this.setCustomValidity('Please enter a title for your Project.');" oninput="setCustomValidity('');"><br><br>
 			<label for="url">Project URL:</label><br>
@@ -141,7 +177,9 @@
 
 			<i ><b>Use <b style="font-weight: bolder;">butler</b> to upload game files: it only uploads what's changed,generates patches for the <a>kaneadua.com app</a> and you can automate it. <a>Get started!</a></b></i><br><br>
 
-			<a href="#"><button>Upload file</button></a>
+			<label for="file_upload" id="label">Upload Files</label>
+
+			<input type="file" name="file_upload" id="file_upload">
 
 			<p style="opacity: 100%; display: inline; ">or</p>
 			<a href="#" id="ex">Add External file</a><br><br><br>
@@ -165,12 +203,12 @@
 			<input type="radio" id="radio1" name="radio" style="width: auto;"><label for="radio1" style="margin-left: 1%;">Discussion board - Add a dedicated community page with categories,threads,replies & more</label>
 <br><br><br>
 
-			<input type="submit" name="submit" value="Save & View Page" id="submit">
-
+			
+			<input type="submit" name="submit" value="Save & View Page" id="submit"1>
+</div>
 		</form>
-		</div>
 
 	</div>
-<script type="text/javascript" src="index.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

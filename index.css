@@ -44,13 +44,14 @@ div#prompt{
 	border-left: 2px solid white;
 }
 div#image{
-	width: 20em;
-	height: 19em;
+	width: 20.625em;
+	height: 12.5em;
 	border: 3px solid black;
 	
 	}
+	
 	div#image img{
-		display: none;
+		/*display: none;*/
 		height: inherit;
 		width: inherit;
 	}
@@ -64,18 +65,22 @@ div#image{
 	padding: 2%;
 	}
 form{
- background: #f3f3f3;
- padding: 2%;
+ width: 100%;
  }
 summary{
 	font-size: 1.1em;
 }
 div#form-contents{
-	border: 2px solid brown;
-	width: 55%;
-	padding: 1%;
+	
+	border: 4px solid brown;
+	width: 50%;
+	padding: 2%;
 	margin: 1.2% 0% 1.2% 3.5%;
 
+}
+div#form{
+	background: #f3f3f3;
+	padding: 2%;
 }
 div#form-contents input{
 	width: 90%;
@@ -105,7 +110,6 @@ div#right-items{
 	float: right;
 	width: 32%;
 	margin-right: 5%;
-	margin-top: 7%;
 	margin-bottom: 2%;
 }
 div#right-items input{
@@ -172,6 +176,138 @@ div#description{
 	height: 20em;
 	border:3px solid black;
 	padding: 2%;
+}
+div#Screenshots-contents{
+	border: 3px solid black;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+div#screen1{
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen1 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen1 input{
+	display: none;
+}
+div#screen1 label{
+	border: 3px solid black;
+	background: red;
+}
+div#screen2{
+	margin-top: 0.5em;
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen2 input{
+	display: none;
+}
+div#screen2 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen2 label{
+	border: 3px solid black;
+	background: red;
+}
+div#screen3{
+	margin-top: 0.5em;
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen3 input{
+	display: none;
+}
+div#screen3 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen3 label{
+	border: 3px solid black;
+	background: red;
+}
+div#screen4{
+	margin-top: 0.5em;
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen4 input{
+	display: none;
+}
+div#screen4 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen4 label{
+	border: 3px solid black;
+	background: red;
+}
+div#screen5{
+	margin-top: 0.5em;
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen5 input{
+	display: none;
+}
+div#screen5 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen5 label{
+	border: 3px solid black;
+	background: red;
+}
+div#screen6{
+	margin-top: 0.5em;
+	display: inline-grid;
+	width: 98%;
+	height: 12em;
+	border: 3px solid black;
+}
+div#screen6 input{
+	display: none;
+}
+div#screen6 img{
+	display: none;
+	width: 18em;
+	height: inherit;
+	position: absolute;
+}
+div#screen6 label{
+	border: 3px solid black;
+	background: red;
+}
+#label{
+	display: inline;
+	background: red;
+	padding: 1.5%;
+	color: white;
+}
+#file_upload{
+	display: none;
 }
 #submit{
 	margin-left: 25%;
