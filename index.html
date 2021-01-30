@@ -18,8 +18,13 @@
 		</div>
 		<div id="right-items">
 		<div id="image">
-			<input type="button" value="Set feature image" >	
-		</div>	<br>
+			<img src="" id="preview"  >
+				
+		</div><br>
+		<label for="img" id="label1">Set feature image</label>
+			<input type="file" name="feature_image" id="img" multiple="false" accept="image/*" onchange="previewfile();">
+
+			<br><br>
 		<summary>
 				The cover image is used whenever kaneadua.com wants to link to your project from another part of the site.Required( Minimum 315*250,Recommended: 630*500)
 			</summary><br>
@@ -34,9 +39,9 @@
 		<div id="form-contents">
 			<form action="api.kaneadua.com" method="GET">
 			<label for="title">Title:</label><br>
-			<input type="text" id="title" ><br><br>
+			<input type="text" id="title" required oninvalid="this.setCustomValidity('Please enter a title for your Project.');" oninput="setCustomValidity('');"><br><br>
 			<label for="url">Project URL:</label><br>
-			<input type="text" placeholder="http//latif83.kaneadua.com/" id="url"><br><br>
+			<input type="url" placeholder="https://latif83.kaneadua.com/" id="url" required     oninvalid="this.setCustomValidity('Please provide a URL for your Project.');" oninput="setCustomValidity('');"><br><br>
 
 			<h4>Short description or tagline</h4><br>
 			<p>Shown when we link to your project. Avoid duplicating your projects title.</p><br>
@@ -166,6 +171,6 @@
 		</div>
 
 	</div>
-
+<script type="text/javascript" src="index.js"></script>
 </body>
 </html>

@@ -44,18 +44,25 @@ div#prompt{
 	border-left: 2px solid white;
 }
 div#image{
-	width: 38%;
+	width: 20em;
+	height: 19em;
 	border: 3px solid black;
-	padding: 20% 5% 20% 5%;
+	
 	}
-div#image input{
-	color: #f3f3f3;
+	div#image img{
+		display: none;
+		height: inherit;
+		width: inherit;
+	}
+	div input#img{
+		display: none;	}
+	div label#label1{
+		color: #f3f3f3;
 	background: red;
-	border:none;
-	font-size: 0.8em;
+	font-size: 1em;
 	font-weight: bolder;
 	padding: 2%;
-}
+	}
 form{
  background: #f3f3f3;
  padding: 2%;
