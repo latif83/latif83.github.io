@@ -180,16 +180,17 @@ div#description{
 div#Screenshots-contents{
 	border: 3px solid black;
 	padding: 0.5em 0.5em 0.5em 0.5em;
+	width: 100%;
 }
 div#screen1{
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
 div#screen1 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
@@ -203,7 +204,7 @@ div#screen1 label{
 div#screen2{
 	margin-top: 0.5em;
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
@@ -212,7 +213,7 @@ div#screen2 input{
 }
 div#screen2 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
@@ -223,7 +224,7 @@ div#screen2 label{
 div#screen3{
 	margin-top: 0.5em;
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
@@ -232,7 +233,7 @@ div#screen3 input{
 }
 div#screen3 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
@@ -243,7 +244,7 @@ div#screen3 label{
 div#screen4{
 	margin-top: 0.5em;
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
@@ -252,7 +253,7 @@ div#screen4 input{
 }
 div#screen4 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
@@ -263,7 +264,7 @@ div#screen4 label{
 div#screen5{
 	margin-top: 0.5em;
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
@@ -272,7 +273,7 @@ div#screen5 input{
 }
 div#screen5 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
@@ -283,7 +284,7 @@ div#screen5 label{
 div#screen6{
 	margin-top: 0.5em;
 	display: inline-grid;
-	width: 98%;
+	width: 19em;
 	height: 12em;
 	border: 3px solid black;
 }
@@ -292,7 +293,7 @@ div#screen6 input{
 }
 div#screen6 img{
 	display: none;
-	width: 18em;
+	width: inherit;
 	height: inherit;
 	position: absolute;
 }
