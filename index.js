@@ -14,6 +14,31 @@ function featureimage(){
 				visible.style.display="none"
 			}
 		}
+		function getContent(){
+		document.getElementById('description').value=document.getElementById('text_content').innerHTML;
+		}
+		/*function check{
+			var check1=document.getElementById('checkbox1');
+			var check2=document.getElementById('checkbox2');
+			var check3=document.getElementById('checkbox3');
+			if (check1.checked=true) {
+				check2.checked=false;
+				check3.checked=false;
+			}
+			else if (check2.checked==true) {
+				check1.checked=false;
+				check3.checked=false;
+			}
+			else if (check3.checked==true) {
+				check1.checked=false;
+				check3.checked=false;
+			}
+			else{
+				check1.checked=true;
+				check2.checked=false;
+				check3.checked=false;
+			}
+		}*/
 		/*function submitforms(){
 			document.getElementById('form1').submit();
 			document.getElementById('form2').submit();
