@@ -158,5 +158,11 @@ footer{
 	color: deeppink;
 	padding: 2%;
 	text-align: center;
-	margin-top: 300px;
+	margin-top: 50px;
+		}
+
+		@media(max-width: 509px ){
+			footer{
+				margin-top: 300px;
+			}
 		}
