@@ -164,7 +164,7 @@ footer{
 	margin-top: 50px;
 		}
 
-		@media(max-width: 1000px ){
+		@media(max-width: 700px ){
 			footer{
          background:grey;
 				margin-top: 500px;
