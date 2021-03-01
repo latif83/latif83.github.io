@@ -161,7 +161,7 @@ footer{
 	margin-top: 50px;
 		}
 
-		@media(max-width: 640px ){
+		@media(max-width: 770px ){
 			footer{
 				margin-top: 500px;
 				padding: 3%
