@@ -154,15 +154,17 @@ div#picture1{
 	text-align: center;
 }
 footer{
-	background:grey;
+	background:black;
 	color: deeppink;
 	padding: 2%;
 	text-align: center;
 	margin-top: 50px;
 		}
 
-		@media(max-width: 509px ){
+		@media(max-width: 565px ){
 			footer{
 				margin-top: 500px;
+				padding: 3%
+				font-size:1.1em;
 			}
 		}
