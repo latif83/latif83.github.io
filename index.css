@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+background:green;
+}
 header{
 	background: black;
 	padding: 2%;
