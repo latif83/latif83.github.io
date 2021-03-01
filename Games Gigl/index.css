@@ -107,6 +107,7 @@
 			height: 200px;
 		}
 		div#cont_5{
+			margin-top: 5%;
 			background-image: url('../Assets/pattern.png');
 			color: white;
 			display:inline-block;
@@ -124,9 +125,49 @@
 			font-weight: bolder;
 			color: yellow;
 		}
+		@media(max-width: 1160px){
+	div#search{
+		top: 40%;
+	}
+	
+		div#cont_1{
+			display:inline-block;
+			width: 200px;
+			height: 200px;
+			background-size: 38em;
+			
+		}
+		div#cont_2{
+			background-size: 30em;
+			display:inline-block;
+			width: 200px;
+			height: 200px;
+			
+		}
+		div#cont_3{
+			margin-top: 8%;
+			background-size: 38em;
+			display:inline-block;
+			width: 200px;
+			height: 200px;
+		}
+		div#cont_4{
+			background-size: 25em;
+			display:inline-block;
+			width: 200px;
+			height: 200px;
+		}
+		div#cont_5{
+			margin-top: 8%;
+			background-size: 35em;
+			display:inline-block;
+			width: 200px;
+			height: 200px;
+		}
+}
 @media(max-width: 1000px){
 	div#search{
-		top: 10%;
+		top: 15%;
 	}
 	
 		div#cont_1{
@@ -164,3 +205,5 @@
 			height: 400px;
 		}
 }
+
+
