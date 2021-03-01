@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	background: red;
+	background: blue;
 }
 header{
 	background: black;
@@ -20,7 +20,7 @@ header nav a{
 header nav{
 	padding: 1%;
 }
-@media(max-width: 800px){
+@media(max-width: 900px){
 	header{
 		height: 70px;
 		padding-top: 8%;
@@ -177,7 +177,7 @@ footer{
 	margin-top: 50px;
 		}
 
-		@media(max-width: 800px ){
+		@media(max-width: 900px ){
 			footer{
 				margin-top: 500px;
 				padding: 3%
