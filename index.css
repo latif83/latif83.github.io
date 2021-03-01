@@ -11,6 +11,11 @@ div#main-contents{
 	border: .15em solid black;
 	background: #152238;
 }
+ @media (max-width: 50em) { 
+ 	div#main-contents{
+ 		margin: 5em 0em 5em 0em;
+ 	}
+  }
 div#field-header{
 	padding: .4em 0em .4em 3em;
 	font-size: 1.1em;
@@ -49,7 +54,18 @@ div#image{
 	border: 3px solid black;
 	
 	}
-	
+	@media(max-width: 50em){
+		div#image{
+			width: 14.625em;
+			height: 7.5em;
+		}
+	}
+	@media(max-width: 640px){
+		div#image{
+			width: 14em;
+			height: 7.4em;
+		}
+	}
 	div#image img{
 		/*display: none;*/
 		height: inherit;
@@ -188,6 +204,7 @@ div#screen1{
 	height: 12em;
 	border: 3px solid black;
 }
+
 div#screen1 img{
 	display: none;
 	width: inherit;
@@ -300,6 +317,32 @@ div#screen6 img{
 div#screen6 label{
 	border: 3px solid black;
 	background: red;
+}
+@media(max-width: 50em){
+	div#screen1{
+		width: 14em;
+		height: 10em;
+	}
+	div#screen2{
+		width: 14em;
+		height: 10em;
+	}
+	div#screen3{
+		width: 14em;
+		height: 10em;
+	}
+	div#screen4{
+		width: 14em;
+		height: 10em;
+	}
+	div#screen5{
+		width: 14em;
+		height: 10em;
+	}
+	div#screen6{
+		width: 14em;
+		height: 10em;
+	}
 }
 #label{
 	display: inline;
