@@ -4,7 +4,10 @@
 	<title></title>
 	<link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body onload="greeting()">
+	<header>
+		
+	</header>
 	<div id="contents">
 		<div id="header_contents">
 
@@ -41,6 +44,14 @@
 </div>
 </center>
 </div>
-
+<footer>
+	<p id="copy">&copy</p>
+</footer>
+<script type="text/javascript">
+	var copy=document.getElementById('copy');
+	var today=new Date();
+	var year=today.getFullYear();
+	copy.textContent+=year+' GAMES GIGL, KANEADUA';
+</script>
 </body>
 </html>

@@ -16,7 +16,9 @@ function checkTime(i){
 		}
 function greeting(){
 	var x=document.getElementById('greetings');
+    var y=document.getElementById('copy');
 	var today=new Date();
+    var year=today.getFullYear();
 	var hours=today.getHours();
 	//var name=prompt('What is your name:');
     
@@ -32,4 +34,5 @@ function greeting(){
     else{
     	x.textContent='WELCOME HERE ';//+name;
     }
+    y.textContent+=year+' LATIF';
 }
