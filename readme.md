@@ -1,3 +1,1 @@
-# Hi
-
-# Hello
+# This a webpage for creating Static web based projects

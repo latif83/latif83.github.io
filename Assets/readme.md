@@ -1,0 +1,1 @@
+#This folder contains assets to the webpage such as images and videos
