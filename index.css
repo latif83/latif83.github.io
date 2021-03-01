@@ -163,6 +163,7 @@ footer{
 
 		@media(max-width: 900px ){
 			footer{
+         background:grey;
 				margin-top: 500px;
 				padding: 3%
 				font-size:1.1em;
