@@ -18,8 +18,33 @@ header nav{
 	padding: 1%;
 }
 @media(max-width: 717px){
-	nav{
-		display: none;
+	header nav a{
+		font-size: 1.1em;
+	}
+}
+@media(max-width: 595px){
+	header nav a{
+		font-size: 1em;
+	}
+}
+@media(max-width: 521px){
+	header nav a{
+		font-size: 0.9em;
+	}
+}
+@media(max-width: 450px){
+	header nav a{
+		font-size: .8em;
+	}
+}
+@media(max-width: 420px){
+	header nav a{
+		font-size: .7em;
+	}
+}
+@media(max-width: 388px){
+	header nav a{
+		font-size: .6em;
 	}
 }
 div#all{
