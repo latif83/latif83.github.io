@@ -21,7 +21,12 @@ header nav{
 	header nav a{
 		font-size: 1.1em;
 	}
+	header{
+		height: 70px;
+		padding-top: 8%;
+	}
 }
+
 @media(max-width: 595px){
 	header nav a{
 		font-size: 1em;
@@ -95,6 +100,11 @@ div#greeting{
 div#greeting p#greetings{
 	font-size: 2.5em;
 	color: red;
+}
+@media(max-width: 800px){
+	div#greeting p#greetings{
+		font-size: 1.1em;
+	}
 }
 @media(max-width: 770px){
 	div#greeting p#greetings{
