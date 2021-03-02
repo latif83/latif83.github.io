@@ -2,6 +2,10 @@
 	margin: 0;
 	padding: 0;
 }
+body{
+	background:brown;
+
+}
 header{
 	background: black;
 	padding: 2%;
@@ -140,9 +144,7 @@ div#picture{
 	display: inline-table;
 	width: 40%;
 	height: 270px;
-	background: brown;
-	border: 3px solid black;
-	border-radius: 15%;
+	
 	padding: 2%;
 	text-align: center;
 }
@@ -159,12 +161,19 @@ div#picture1{
 	display: inline-table;
 	width: 40%;
 	height: 270px;
-	background: brown;
-	border: 3px solid black;
+	border-left: 5px solid black;
 	margin-left: 2%;
-	border-radius: 15%;
 	padding: 2%;
 	text-align: center;
+}
+div#text{
+	padding: 5%;
+
+}
+div#text p{
+	padding: 1%;
+	font-size: 1.4em;
+	color:lightgrey;
 }
 footer{
 	background:black;
@@ -172,11 +181,12 @@ footer{
 	padding: 2%;
 	text-align: center;
 	margin-top: 50px;
+	font-size: 1.5em;
 		}
 
 		@media(max-width: 980px ){
 			footer{
-				margin-top: 1000px;
+				
 				padding: 3%;
 				font-size:1.1em;
 				height: 50px;
