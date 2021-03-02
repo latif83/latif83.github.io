@@ -361,3 +361,33 @@ div#screen6 label{
 	color: white;
 	border: none;
 } 
+@media(max-width: 980px){
+	div#image{
+			width: 7em;
+			height: 5.4em;
+		}
+		div#screen1{
+		width: 7.5em;
+		height: 6em;
+	}
+	div#screen2{
+		width: 7.5em;
+		height: 6em;
+	}
+	div#screen3{
+		width: 7.5em;
+		height: 6em;
+	}
+	div#screen4{
+		width: 7.5em;
+		height: 6em;
+	}
+	div#screen5{
+		width: 7.5em;
+		height: 6em;
+	}
+	div#screen6{
+		width: 7.5em;
+		height: 6em;
+	}
+}
