@@ -34,5 +34,5 @@ function greeting(){
     else{
     	x.textContent='WELCOME HERE ';//+name;
     }
-    y.textContent+=year+' LATIF';
+    y.textContent+=year+' | LATIF';
 }
