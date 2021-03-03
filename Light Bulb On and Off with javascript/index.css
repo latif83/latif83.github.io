@@ -1,0 +1,44 @@
+*{
+			padding: 0;
+			margin:0;
+		}
+		/*img#lighton{
+			display: none;
+		}*/
+			body{
+			background: indigo;
+		}
+		button{
+			font-size: 1.1em;
+			background: black;
+			color: white;
+		}
+		button:hover{
+			background: red;
+			color: white;	
+				}
+	
+	
+		img{
+			margin-top: 10%;
+			height: 500px;
+			width: 500px;
+			
+		}
+		@media(max-width: 980px){
+			img{
+				width: 900px;
+				height: 900px;
+				margin-top: 40%;
+			}
+		}
+		
+		/*button{
+			background: black;
+		}
+		/*h1{
+			display: inline;
+		}*/
+		/*#h{
+			display: none;
+		}*/
