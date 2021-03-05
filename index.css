@@ -140,31 +140,9 @@ div#greeting p#greetings{
 	}
 }
 
-div#picture{
-	display: inline-table;
-	width: 40%;
-	height: 270px;
-	
-	padding: 2%;
-	text-align: center;
-}
-div#picture h1{
-	text-decoration: underline;
-}
-div#picture ul{
-	list-style: none;
-	margin-top: 3%;
-	font-size: 1.2em;
-	color: white;
-}
-div#picture1{
-	display: inline-table;
-	width: 40%;
-	height: 270px;
-	border-left: 5px solid black;
-	margin-left: 2%;
-	padding: 2%;
-	text-align: center;
+img#pic{
+	border-top: 3px dashed deeppink;
+	border-bottom: 3px dashed deeppink;
 }
 div#text{
 	padding: 5%;
