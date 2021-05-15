@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+div.img{
+	margin-left: 40%;
+}
+
+div.img img{
+	width: 200px;
+	height: 150px;
+}
+
+form{
+	position: absolute;
+	padding: 4%;
+	margin-left: 33%;
+	margin-top: 2%;
+	border: 3px solid red;
+	border-radius: 10px;
+}
+
+form div{
+	font-size: 2em;
+	font-family: cursive;
+}
+
+form div input{
+	height: 30px;
+	width: 300px;
+	font-weight: bolder;
+	background: lightyellow;
+}
+
+form div input:hover{
+	background: red;
+}
+
+#join{
+	background: red;
+	width: 150px;
+}
+
+#join:hover{
+	background: lightyellow;
+}
+
+form div.email,div.password{
+	margin-top: 10%;
+}
+
