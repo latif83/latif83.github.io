@@ -50,12 +50,12 @@ form div input:hover{
 
 }
 
-#join{
+#log{
 	background: red;
 	width: 150px;
 }
 
-#join:hover{
+#log:hover{
 	background: lightyellow;
 }
 
