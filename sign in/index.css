@@ -18,7 +18,7 @@ form{
 	padding: 4%;
 	margin-left: 33%;
 	margin-top: 2%;
-	border: 3px solid black;
+	border: 3px solid brown;
 	border-radius: 10px;
 }
 @media(max-width: 50em){
@@ -50,12 +50,12 @@ form div input{
 }
 
 form div input:hover{
-	background: red;
+	background: brown;
 
 }
 
 #log{
-	background: red;
+	background: brown;
 	width: 150px;
 }
 
