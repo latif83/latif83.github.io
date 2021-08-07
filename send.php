@@ -1,3 +1,3 @@
 <?php
-echo $_POST['send'];
+echo "LATIF";
 ?>
