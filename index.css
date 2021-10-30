@@ -65,15 +65,17 @@ div#all{
 }
 div#projects{
 	display: inline-block;
-	width: 30%;
+	width: 40%;
 	padding: 2%;
 	text-align: center;
 }
 div#projects a{
-	color: red;
-	font-size: 1.1em;
+	color: white;
 	text-decoration: none;
-	padding: 2%;
+background-color: red;
+font-weight: bolder;
+display: inline-block;
+padding: 1%;
 }
 div#projects h1{
 font-size: 1.4em;
@@ -98,11 +100,12 @@ text-decoration: underline;
 }
 div#greeting{
 	display: inline-block;
-	width: 60%;
+	width: 40%;
 	color: pink;
 	text-align: center;
 	font-size: 1.5em;
 	padding: 2%;
+
 }
 div#greeting p#greetings{
 	font-size: 2.5em;
