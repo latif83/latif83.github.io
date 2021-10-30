@@ -91,6 +91,7 @@ form.login input{
     width: 80%;
     padding: 2%;
     outline-color: #0B0B3B;
+    font-size: 1em;
 }
 
 form.login label{
@@ -140,7 +141,7 @@ div.signup{
 
 form.signup{
     border: 2px dotted #0B0B3B;
-    width: 30%;
+    width: 40%;
     text-align: center;
     padding: 3%;
     background-color: whitesmoke;
@@ -149,9 +150,21 @@ form.signup{
     margin: auto;
 }
 
+@media(max-width: 479px){
+
+    div.signup{
+        height: 115%;
+    }
+    form.signup{
+        width: 90%;
+        margin-top: 7%;
+    }
+}
+
 form.signup input{
     width: 80%;
     padding: 2%;
+    font-size: 1em;
 }
 
 form.signup label{
@@ -188,21 +201,19 @@ form.signup span{
     display: block;
 }
 
-form.signup img{
-    width: 5%;
-    border: 2px solid black;
-    padding: 1.5%;
+form.signup i{
     cursor: pointer;
 }
 
-form.signup img:hover{
+form.signup i:hover{
     background-color: red;
-    border: none;
+    padding: 1%;
 }
 
 div.slider{
     margin-top: 1%;
     margin-left: 3%;
+    z-index: 0;
 }
 
 @media(max-width: 479px){
