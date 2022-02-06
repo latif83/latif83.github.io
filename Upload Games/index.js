@@ -58,7 +58,7 @@ function previewscreenshots0(){
 				preview.src="";
 				visible.style.display="none"
 			}
-}/*
+}
 function previewscreenshots1(){
 	var visible=document.getElementById('view1');
 			var preview=document.querySelector('img#view1');
@@ -138,4 +138,4 @@ function previewscreenshots5(){
 				preview.src="";
 				visible.style.display="none"
 			}
-}*/
+}
